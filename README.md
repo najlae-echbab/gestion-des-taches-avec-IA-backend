@@ -18,9 +18,4 @@ Une application web intelligente de gestion de projets. À partir d’une simple
 - **API IA :** OpenAI
 - **Librairies :** Axios, React Beautiful DnD, etc.
 
-## 📦 Installation
 
-### 1. Cloner le projet
-
-```bash
-git clone https://github.com/ton-utilisateur/gestion-des-taches-avec-l-IA.git
