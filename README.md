@@ -1,21 +1,40 @@
-# 🧠 Gestion des Tâches avec l'IA
+#  Backend – Gestion des Tâches avec l'IA
 
-Une application web intelligente de gestion de projets. À partir d’une simple **description de projet**, l’IA génère automatiquement une liste de tâches, que l’utilisateur peut ensuite organiser, modifier ou compléter dans une interface **Kanban** intuitive.
+## Présentation
 
-## ✨ Fonctionnalités
+Ce backend est le **moteur logique** de l'application **Gestion des Tâches avec l'IA**. Il fournit une API REST sécurisée avec **Spring Boot** pour gérer :
 
-- 🧾 Génération automatique des tâches à partir d'une description
-- 🧠 Intégration avec OpenAI pour la création intelligente de tâches
-- 📌 Ajout, modification et suppression de tâches
-- 📊 Tableau Kanban pour organiser les tâches par statut (À faire, En cours, Terminé)
-- 🔄 Sauvegarde des projets et de leurs tâches
+-  L’authentification des utilisateurs (avec JWT)
+-  La création et gestion de projets
+-  La création, modification et suppression des tâches
+-  L’intégration avec l’API OpenAI pour générer automatiquement une liste de tâches à partir d'une simple description
 
-## 🛠 Technologies utilisées
+---
 
-- **Back-end :** Spring Boot (Java)
-- **Front-end :** React + TypeScript
-- **Base de données :** MySQL
-- **API IA :** OpenAI
-- **Librairies :** Axios, React Beautiful DnD, etc.
+##  Technologies utilisées
 
+| Catégorie        | Outils / Librairies                     |
+|------------------|------------------------------------------|
+| Langage          | Java 17                                 |
+| Framework        | Spring Boot                             |
+| Authentification | Spring Security + JWT                   |
+| ORM              | Spring Data JPA                         |
+| Base de données  | MySQL                                   |
+| IA               | OpenAI API                              |
+         
 
+---
+
+##  Configuration du projet
+
+###  Prérequis
+
+- Java JDK 17 ou plus
+- MySQL (avec un utilisateur et mot de passe configurés)
+- Maven (`mvn`) ou wrapper (`./mvnw`)
+
+###  Clonage du dépôt
+
+```bash
+git clone https://github.com/najlae-echbab/gestion-des-taches-avec-IA-backend.git
+cd gestion-des-taches-avec-IA-backend
